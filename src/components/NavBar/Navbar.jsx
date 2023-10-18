@@ -15,11 +15,11 @@ function NavbarComponent() {
           <Nav className="me-auto">
             <Nav.Link as={NavLink} to='/' >Home</Nav.Link>
             <NavDropdown title="productos" id="basic-nav-dropdown">
-              <NavDropdown.Item as= {NavLink} to='/category/medallones'>Medallones</NavDropdown.Item>
-              <NavDropdown.Item as= {NavLink} to='/category/kurkuma'>
-                kurkuma
+              <NavDropdown.Item as= {NavLink} to='/category/pepitos'>pepitos</NavDropdown.Item>
+              <NavDropdown.Item as= {NavLink} to='/category/milka'>
+                milka
               </NavDropdown.Item>
-              <NavDropdown.Item as= {NavLink} to='/category/espinaca'>espinaca</NavDropdown.Item>
+              <NavDropdown.Item as= {NavLink} to='/category/girasol'>girasol</NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <NavLink style= {{textDecoration:'none'}} to='/cart'><CartWidget/></NavLink>
